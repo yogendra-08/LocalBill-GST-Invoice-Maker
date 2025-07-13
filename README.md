@@ -1,52 +1,41 @@
-# My Daily Commits
+# LocalBill – GST Invoice Maker
 
-Day 1: Commit made at Sun Jul 13 21:24:41 2025
-Day 2: Commit made at Sun Jul 13 21:24:47 2025
-Day 3: Commit made at Sun Jul 13 21:24:52 2025
-Day 4: Commit made at Sun Jul 13 21:24:57 2025
-Day 5: Commit made at Sun Jul 13 21:25:02 2025
-Day 6: Commit made at Sun Jul 13 21:25:07 2025
-Day 7: Commit made at Sun Jul 13 21:25:13 2025
-Day 8: Commit made at Sun Jul 13 21:25:19 2025
-Day 9: Commit made at Sun Jul 13 21:25:24 2025
-Day 10: Commit made at Sun Jul 13 21:25:29 2025
-Day 11: Commit made at Sun Jul 13 21:25:34 2025
-Day 12: Commit made at Sun Jul 13 21:25:40 2025
-Day 13: Commit made at Sun Jul 13 21:25:45 2025
-Day 14: Commit made at Sun Jul 13 21:25:51 2025
-Day 15: Commit made at Sun Jul 13 21:25:56 2025
-Day 16: Commit made at Sun Jul 13 21:26:01 2025
-Day 17: Commit made at Sun Jul 13 21:26:06 2025
-Day 18: Commit made at Sun Jul 13 21:26:12 2025
-Day 19: Commit made at Sun Jul 13 21:26:19 2025
-Day 20: Commit made at Sun Jul 13 21:26:26 2025
-Day 21: Commit made at Sun Jul 13 21:26:33 2025
-Day 22: Commit made at Sun Jul 13 21:26:39 2025
-Day 23: Commit made at Sun Jul 13 21:26:45 2025
-Day 24: Commit made at Sun Jul 13 21:26:51 2025
-Day 25: Commit made at Sun Jul 13 21:26:57 2025
-Day 26: Commit made at Sun Jul 13 21:27:02 2025
-Day 27: Commit made at Sun Jul 13 21:27:07 2025
-Day 28: Commit made at Sun Jul 13 21:27:13 2025
-Day 29: Commit made at Sun Jul 13 21:27:18 2025
-Day 30: Commit made at Sun Jul 13 21:27:23 2025
-Day 31: Commit made at Sun Jul 13 21:27:30 2025
-Day 32: Commit made at Sun Jul 13 21:27:35 2025
-Day 33: Commit made at Sun Jul 13 21:27:42 2025
-Day 34: Commit made at Sun Jul 13 21:27:48 2025
-Day 35: Commit made at Sun Jul 13 21:27:54 2025
-Day 36: Commit made at Sun Jul 13 21:27:59 2025
-Day 37: Commit made at Sun Jul 13 21:28:05 2025
-Day 38: Commit made at Sun Jul 13 21:28:10 2025
-Day 39: Commit made at Sun Jul 13 21:28:16 2025
-Day 40: Commit made at Sun Jul 13 21:28:22 2025
-Day 41: Commit made at Sun Jul 13 21:28:27 2025
-Day 42: Commit made at Sun Jul 13 21:28:32 2025
-Day 43: Commit made at Sun Jul 13 21:28:38 2025
-Day 44: Commit made at Sun Jul 13 21:28:43 2025
-Day 45: Commit made at Sun Jul 13 21:28:49 2025
-Day 46: Commit made at Sun Jul 13 21:28:54 2025
-Day 47: Commit made at Sun Jul 13 21:29:00 2025
-Day 48: Commit made at Sun Jul 13 21:29:05 2025
-Day 49: Commit made at Sun Jul 13 21:29:10 2025
-Day 50: Commit made at Sun Jul 13 21:29:16 2025
+A simple desktop application to generate GST-compliant invoices for local businesses. Built with Python and Tkinter.
+
+## Features
+- Add multiple items with price, quantity, and GST percentage
+- Calculates GST and total amount automatically
+- Customer name and contact fields (optional)
+- Generates and saves invoices as CSV files in the `data/` folder
+- Simple, user-friendly interface
+
+## How to Use
+1. **Run the application:**
+   ```sh
+   python main.py
+   ```
+2. **Enter customer details** (optional).
+3. **Add items:** Enter item name, price, quantity, and select GST%. Click "Add Item" for each product.
+4. **View bill:** All items and totals are shown in the table.
+5. **Generate invoice:** Click "Generate Invoice" to save the bill as a CSV file in the `data/` folder.
+
+## Example Output
+A generated CSV invoice looks like this:
+
+```
+Item,Price,Quantity,GST%,Total
+dhokla ,250.0,1,5,262.5
+samosa ,100.0,5,5,525.0
+```
+
+## Requirements
+- Python 3.x
+- Tkinter (usually included with Python)
+
+## Project Structure
+- `main.py` – Main application code
+- `data/` – Folder where invoices are saved as CSV files
+
+---
+
+Feel free to use, modify, and share this project!
